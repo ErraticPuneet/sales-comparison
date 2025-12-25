@@ -1,42 +1,70 @@
-# Sales Comparison Report (Frontend Assignment)
+# Getting Started with Create React App
 
-## Project Overview
-This project is a single-page React application developed as part of a frontend hiring evaluation. 
-It consumes a live backend API and presents sales comparison data in a structured, analytical report format.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Tech Stack & Libraries Used
-- React.js – Frontend framework
-- Material UI (MUI) – UI components and layout
-- Axios – API integration
-- Recharts – Data visualization (charts)
+## Available Scripts
 
-## Application Features
-- Single-page analytical report (no routing)
-- Live backend API integration
-- Loading and error handling
-- Tabular data representation using MUI Table
-- Graphical analysis using Line and Bar charts
-- Clean, professional report layout
+In the project directory, you can run:
 
-## Backend API
-Endpoint:
-http://74.225.26.105:8000/salecomparison/lmtd/gsm
+### `npm start`
 
-Note:
-The backend API currently returns an internal server error due to a database connectivity issue.
-Backend modifications were strictly prohibited, so the frontend handles this gracefully by displaying a clear error message.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Setup Instructions
-1. Clone the repository
-2. Run `npm install`
-3. Run `npm start`
-4. Open browser at `http://localhost:3000`
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Hosted Application URL
-(To be updated after deployment)
+### `npm test`
 
-## Report Output
-The report is presented as a single-page layout and can be exported as a PDF using the browser print functionality.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Author
-Puneet Dhanoriya
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
